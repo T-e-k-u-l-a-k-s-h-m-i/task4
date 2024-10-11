@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="task4.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+        <link rel="icon" href="Lakshmi.png">
+    <title> PORTFOLIO</title>
+</head>
+
+<body>
+    <!-- Follow mobile first Approach -->
+    <!-- This is the navbar -->
+    <header class="navbar-container">
+        <nav class="navbar" id="navbar">
+            <a class="navbar-brand" href="#"><img class="logo" alt="logo" src="L.png"></a>            
+            <button class="navBar-toggler" id="navBar-toggler">
+                <span class="navbar-icon"></span>
+            </button>
+            <ul class="nav-list" id="nav-list">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacts">Contact Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Location">Location</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-container">
+        <section class="intro-container" id="home">
+            <section class="introduction-container">
+
+                <h1 class="greeting">Hi, Iam Lakshmi </h1>
+
+            </section>
+        </section>
+        <article class="projects-container" id="projects">
+            <h1 class="projects-container-heading">What I have done</h1>       
+            <section class="cards-container">
+                <section class="card" data-aos="flip-right">
+                    <a class="card-img" href="#"></a>
+                    <section class="card-description">
+                        <h1 class="card-description-heading" style="text-align: center;">Table</h1><img src="task1.png"/>
+                         </section>
+                </section>
+                <section class="card" data-aos="flip-right">
+                    <a class="card-img" href="#"></a>
+                    <section class="card-description">
+                        <b class="card-description-heading">Company Directory Portal</b><img src="task2.png"/>
+                       
+                    </section>
+                </section>
+                <section class="card" data-aos="flip-right">
+                    <a class="card-img" href="#"></a>
+                    <section class="card-description">
+                        <h1 class="card-description-heading" style="text-align: center;">Layout</h1><img src="task3.png">
+                       
+                    </section>
+                </section>
+                <section class="card" data-aos="flip-right">
+                    <a class="card-img" href="#"></a></a>
+                <section class="card-description">
+                    
+                    
+                        <b class="card-description-heading">Innomatics Research Page</b><img src="task4.png">
+                       
+                    </section>
+                </section>
+
+            </section>
+        </article></div>
+        <section class="contacts-container" id="contacts" data-aos="fade-up">
+            <form class="details-form">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Namaiva..." required>
+                <label for="mail">Email</label>
+                <input type="email" name="mail" id="mail" placeholder="Your email addreess ...." required>
+                <label for="message">Message</label>
+                <textarea type="text" name="message" placeholder="Anything you want to convey..." required></textarea>
+                <button type="submit" class="submit-btn" value="submit">Send Me</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" width="22.5"
+            viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path fill="#eeedeb"
+                d="M407.8 294.7c-3.3-.4-6.7-.8-10-1.3c3.4 .4 6.7 .9 10 1.3zM288 227.1C261.9 176.4 190.9 81.9 124.9 35.3C61.6-9.4 37.5-1.7 21.6 5.5C3.3 13.8 0 41.9 0 58.4S9.1 194 15 213.9c19.5 65.7 89.1 87.9 153.2 80.7c3.3-.5 6.6-.9 10-1.4c-3.3 .5-6.6 1-10 1.4C74.3 308.6-9.1 342.8 100.3 464.5C220.6 589.1 265.1 437.8 288 361.1c22.9 76.7 49.2 222.5 185.6 103.4c102.4-103.4 28.1-156-65.8-169.9c-3.3-.4-6.7-.8-10-1.3c3.4 .4 6.7 .9 10 1.3c64.1 7.1 133.6-15.1 153.2-80.7C566.9 194 576 75 576 58.4s-3.3-44.7-21.6-52.9c-15.8-7.1-40-14.9-103.2 29.8C385.1 81.9 314.1 176.4 288 227.1z" />
+        </svg>
+        <div class="eyes">
+            <span class="eye"></span>
+            <span class="eye"></span>
+
+        </div>
+       
+    </footer>
+    
+     <div class="container py-4" id="Location" >
+        <h2 class="pb-2 border-bottom " >Location</h2>
+        <div class="map-responsive" data-aos="zoom-in">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15220.794429855236!2d78.3899895!3d17.4980302!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f3fdf6bde9%3A0x752db86a6ab3be2a!2sInnomatics%20Research%20Labs!5e0!3m2!1sen!2sin!4v1728371583742!5m2!1sen!2sin"  style="border:0; border-radius:10px; width:1350px; margin-bottom: 30px; height: 600px; margin-left: 80px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+</body>
+
+
+</html>
